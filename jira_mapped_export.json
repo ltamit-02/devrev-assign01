@@ -1,0 +1,323 @@
+[
+    {
+        "type":"ticket",
+        "title":"Escalation: Critical Test Execution Failure",
+        "body":"Our production tests are failing due to platform issues. Need urgent resolution.",
+        "applies_to_part": "PROD-2",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Data Breach Alert: Unintended Test Logs Visible",
+        "body":"Test execution logs are publicly accessible without authentication",
+        "applies_to_part": "PROD-2",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Unauthorized Access to Test Results",
+        "body":"Some team members see test results from other projects they are not assigned to.",
+        "applies_to_part": "PROD-4",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Failed Payment Transaction on LambdaTest",
+        "body":"Our credit card transaction failed. Can we retry the payment manually?",
+        "applies_to_part": "PROD-4",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Upgrade to Enterprise Plan Not Reflecting",
+        "body":"After upgrading to an Enterprise plan, our account still shows the Pro plan.",
+        "applies_to_part": "PROD-4",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Invoice Not Generated for Last Month",
+        "body":"We did not receive an invoice for our last billing cycle. Please send it.",
+        "applies_to_part": "PROD-4",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+
+    {
+        "type":"ticket",
+        "title":"Double Charge on Credit Card for Subscription",
+        "body":"I was charged twice for my monthly Pro plan subscription. Need urgent refund.",
+        "applies_to_part": "PROD-4",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Support for Selenium 4 BiDi APIs",
+        "body":"Will LambdaTest add support for Selenium 4\u2019s BiDi API for bidirectional communication?\"",
+        "applies_to_part": "PROD-2",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Ability to Schedule Test Runs via Dashboard",
+        "body":"Can we schedule automated test executions directly from the LambdaTest UI?",
+        "applies_to_part": "PROD-2",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Request for WebRTC Testing Capabilities",
+        "body":"We want to test WebRTC-based applications. Will LambdaTest support this in the future?",
+        "applies_to_part": "PROD-2",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Support for Edge Chromium Mobile Emulator",
+        "body":"Can LambdaTest add support for Edge Chromium in mobile emulation mode?",
+        "applies_to_part": "PROD-3",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Network Throttling Feature Not Working",
+        "body":"When simulating a slow network in the browser settings, it does not affect page load times.",
+        "applies_to_part": "PROD-3",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Incorrect Language Locale in Localization Testing",
+        "body":"I set my browser locale to \u2018fr-FR\u2019, but the website still loads in English. Other tools detect French.",
+        "applies_to_part": "PROD-3",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Browser Console Logs Not Captured in Selenium Tests",
+        "body":"I enabled console logs in capabilities, but no logs appear in the test report.",
+        "applies_to_part": "PROD-2",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Incorrect Device Resolution in Mobile Tests",
+        "body":"When testing on iPhone 14 Pro, the browser viewport does not match the expected device resolution.",
+        "applies_to_part": "PROD-4",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Test Session Ends Abruptly with No Logs",
+        "body":"Some test sessions terminate abruptly after a few seconds. No execution logs are available",
+        "applies_to_part": "PROD-3",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Video Recording Not Available for Completed Tests",
+        "body":"After test execution, the session details do not show video recording. The option is enabled in our settings.",
+        "applies_to_part": "PROD-4",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"LambdaTest Tunnel Not Connecting in CI\/CD",
+        "body":"When running CI\/CD pipelines, LambdaTest Tunnel fails to establish a connection, showing 'Timeout while waiting for Tunnel handshake.'",
+        "applies_to_part": "PROD-2",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Bitbucket Pipeline LambdaTest Execution Fails",
+        "body":"Our Bitbucket pipeline execution throws an error: 'WebDriver session not created.' The same configuration works locally.\"",
+        "applies_to_part": "PROD-3",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"TestCafe Tests Not Running in LambdaTest",
+        "body":"TestCafe scripts execute locally but do not trigger sessions in LambdaTest. The logs show 'browser not found' even when correctly specified.",
+        "applies_to_part": "PROD-2",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Cannot Upload App for Mobile Testing via API",
+        "body":"We are trying to upload our mobile app using LambdaTest API, but the request returns '403 Forbidden'. API key is correctly set.\"",
+        "applies_to_part": "PROD-3",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"CircleCI Build Cannot Connect to LambdaTest",
+        "body":"LambdaTest execution fails with 'Connection Refused' error when running tests from CircleCI. Our network allows outbound connections.",
+        "applies_to_part": "PROD-3",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"LambdaTest Integration with GitHub Actions Failing",
+        "body":"We followed the documentation to integrate LambdaTest with GitHub Actions, but the workflow exits with error 'Unknown Grid URL.' Need help debugging.",
+        "applies_to_part": "PROD-3",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Jenkins Pipeline Fails to Start Tests on LambdaTest",
+        "body":"Our Jenkins job fails when triggering LambdaTest executions. The error message says '401 Unauthorized'. We have rechecked our API key.\"",
+        "applies_to_part": "PROD-2",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Geolocation Testing Incorrectly Detects Region",
+        "body":"I am testing geolocation-based features, but the LambdaTest browser always detects the location as 'United States' even when I select a different country.\"",
+        "applies_to_part": "PROD-3",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Parallel Testing Not Working with Remote WebDriver",
+        "body":"I'm trying to run Selenium tests in parallel, but only one test executes at a time. My test capabilities allow parallel execution. Please check.",
+        "applies_to_part": "PROD-2",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Visual Regression Tests Give Incorrect Comparisons",
+        "body":"We are using LambdaTest for visual testing, but the screenshots comparison shows false positives. Baseline images and test images seem identical",
+        "applies_to_part": "PROD-4",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Cypress Test Fails Due to Browser Crash",
+        "body":"When running Cypress tests on LambdaTest, the browser crashes after a few minutes. The logs show 'Chrome process unexpectedly exited.",
+        "applies_to_part": "PROD-2",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Unable to Capture Screenshots in Selenium Tests",
+        "body":"My Selenium script runs successfully, but screenshots are not captured in the test report. The WebDriver {{takeScreenshot()}} method fails. Need help.",
+        "applies_to_part": "PROD-4",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Appium Test Execution Stuck at Launching App",
+        "body":"Appium tests on Android devices get stuck at 'Launching App' and do not proceed. Logs show 'adb connection timeout.' Please advise.\"",
+        "applies_to_part": "PROD-3",
+        "severity":"high",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Automated Test Running Slow on LambdaTest",
+        "body":"Our Cypress tests run significantly slower compared to local execution. Execution logs show high network latency. Is there a way to optimize execution speed?",
+        "applies_to_part": "PROD-2",
+        "severity":"medium",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    },
+    {
+        "type":"ticket",
+        "title":"Selenium Tests Failing on iOS Safari 16",
+        "body":"My Selenium test is failing when executed on LambdaTest iOS Safari 16. The same test works fine locally but fails with a timeout error on your platform. Logs attached.",
+        "applies_to_part": "PROD-2",
+        "severity":"Blocker",
+        "owned_by": [
+            "DEVU-1"
+          ]        
+    }
+]
