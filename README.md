@@ -1,34 +1,27 @@
-**DevRev API Ticket Upload Script
-**
+DevRev API Ticket Upload Script
 
-**Overview
-**
+Overview
 
 This Python script automates the process of uploading Jira tickets to the DevRev API. It reads a JSON file containing Jira tickets, processes them, and sends them to DevRev via API requests.
 
-**Prerequisites
-**
+Prerequisites:
 - Python 3 installed
 - requests module installed (pip install requests)
 - DevRev API Key set as an environment variable (DEVREV_API_KEY)
 
-**Installation & Setup
-**
-
-**1️⃣ Clone the Repository
-**
+Installation & Setup
+1️⃣ Clone the Repository
 git clone https://github.com/your-repo/devrev-api-upload.git
 cd devrev-api-upload
 
 
-**2️⃣ Set Up Environment Variable
-**
+2️⃣ Set Up Environment Variable
 export DEVREV_API_KEY="your_api_key_here"  # For Mac/Linux
 set DEVREV_API_KEY=your_api_key_here  # For Windows (CMD)
 
-**3️⃣ Install Dependencies
-**
+3️⃣ Install Dependencies
 pip install requests
+
 
 Usage
 
@@ -42,8 +35,7 @@ Expected Output
 ✅ Successfully uploaded: Login Page Not Working
 
 
-**Code Explanation
-**
+Code Explanation
 
 1️⃣ Importing Required Libraries
 
